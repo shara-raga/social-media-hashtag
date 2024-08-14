@@ -4,8 +4,8 @@ import json
 
 # Initialize a session using Amazon DynamoDB
 session = boto3.Session(
-    aws_access_key_id='AKIAW3MD7GU6ICANM22E',
-    aws_secret_access_key='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',
+    aws_access_key_id='AKI***********',
+    aws_secret_access_key='I4y32dfd*************',
     region_name='eu-north-1'
 )
 lambda_client = session.client('lambda', region_name='eu-north-1') 
